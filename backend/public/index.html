@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TAGGLIO Backend</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, hsl(210, 40%, 15%), hsl(260, 30%, 10%));
+      color: #fff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+    p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    a {
+      color: #a0e7e5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>TAGGLIO Backend is Running</h1>
+    <p>Welcome! The server is up and connected to MongoDB.</p>
+    <p>Explore the <a href="/api/products">Products API</a> or other endpoints.</p>
+  </div>
+</body>
+</html>
